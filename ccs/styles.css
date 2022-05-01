@@ -1,11 +1,20 @@
+/* кольори */
+
+:root{
+--text-color:#757575;
+    :#212121;
+}
+
+
+
+
 /* Главная */
 
 position: relative;
 width: 1600px;
 height: 2349px;
 
-background: #FFFFFF;
-
+background: #ffffff;
 
 /* Верхняя линия */
 
@@ -15,8 +24,6 @@ height: 80px;
 left: 0px;
 top: 0px;
 
-
-
 /* top line bg */
 
 position: absolute;
@@ -25,8 +32,7 @@ height: 80px;
 left: 0px;
 top: 0px;
 
-background: #FFFFFF;
-
+background: #ffffff;
 
 /* Line  */
 
@@ -36,28 +42,26 @@ height: 0px;
 left: 0px;
 top: 80px;
 
-border: 1px solid #ECECEC;
-
+border: 1px solid #ececec;
 
 /* WebStudio */
 
-position: absolute;
 width: 145px;
 height: 31px;
 left: 215px;
 top: 24px;
-
-font-family: 'Raleway';
+font-family: "Raleway";
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
 letter-spacing: 0.03em;
+color: #2196f3;
+}
 
-color: #2196F3;
-
-
+.logo-web {
+    color: black;
+}
 
 /* Menu Nav */
 
@@ -67,8 +71,6 @@ height: 16px;
 left: 453px;
 top: 32px;
 
-
-
 /* Студия */
 
 position: absolute;
@@ -77,7 +79,7 @@ height: 16px;
 left: 453px;
 top: 32px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -85,8 +87,6 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #212121;
-
-
 
 /* Активная ссылка */
 
@@ -96,8 +96,6 @@ height: 16px;
 left: 453px;
 top: 32px;
 
-
-
 /* Студия */
 
 position: absolute;
@@ -106,16 +104,14 @@ height: 16px;
 left: 453px;
 top: 32px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-color: #2196F3;
-
-
+color: #2196f3;
 
 /* Портфолио */
 
@@ -125,7 +121,7 @@ height: 16px;
 left: 552px;
 top: 32px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -133,8 +129,6 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #212121;
-
-
 
 /* Контакты */
 
@@ -144,7 +138,7 @@ height: 16px;
 left: 679px;
 top: 32px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -152,8 +146,6 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #212121;
-
-
 
 /* E-mail */
 
@@ -163,8 +155,6 @@ height: 16px;
 left: 1078px;
 top: 32px;
 
-
-
 /* info@devstudio.com */
 
 position: absolute;
@@ -173,7 +163,7 @@ height: 16px;
 left: 1078px;
 top: 32px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -181,8 +171,6 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #757575;
-
-
 
 /* Hover */
 
@@ -192,8 +180,6 @@ height: 16px;
 left: 1078px;
 top: 32px;
 
-
-
 /* info@devstudio.com */
 
 position: absolute;
@@ -202,16 +188,14 @@ height: 16px;
 left: 1078px;
 top: 32px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-color: #2196F3;
-
-
+color: #2196f3;
 
 /* Tel */
 
@@ -221,8 +205,6 @@ height: 16px;
 left: 1263px;
 top: 32px;
 
-
-
 /* +38 096 111 11 11 */
 
 position: absolute;
@@ -231,7 +213,7 @@ height: 16px;
 left: 1263px;
 top: 32px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -239,8 +221,6 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #757575;
-
-
 
 /* Шапка */
 
@@ -250,8 +230,6 @@ height: 600px;
 left: 0px;
 top: 80px;
 
-
-
 /* Bg */
 
 position: absolute;
@@ -260,8 +238,7 @@ height: 600px;
 left: 0px;
 top: 80px;
 
-background: #2F303A;
-
+background: #2f303a;
 
 /* Эффективные решения для вашего бизнеса */
 
@@ -271,19 +248,16 @@ height: 120px;
 left: 452px;
 top: 280px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-/* or 136% */
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
-color: #FFFFFF;
-
-
+color: #ffffff;
 
 /* Button */
 
@@ -293,8 +267,6 @@ height: 50px;
 left: 700px;
 top: 430px;
 
-
-
 /* bg */
 
 position: absolute;
@@ -303,10 +275,9 @@ height: 50px;
 left: 700px;
 top: 430px;
 
-background: #2196F3;
+background: #2196f3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-
 
 /* Заказать услугу */
 
@@ -316,7 +287,7 @@ height: 30px;
 left: 732px;
 top: 440px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -327,9 +298,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 
-color: #FFFFFF;
-
-
+color: #ffffff;
 
 /* Button (Hover) */
 
@@ -340,8 +309,6 @@ height: 50px;
 left: 700px;
 top: 430px;
 
-
-
 /* bg */
 
 position: absolute;
@@ -350,10 +317,9 @@ height: 50px;
 left: 700px;
 top: 430px;
 
-background: #188CE8;
+background: #188ce8;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-
 
 /* Заказать услугу */
 
@@ -363,7 +329,7 @@ height: 30px;
 left: 732px;
 top: 440px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -374,9 +340,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 
-color: #FFFFFF;
-
-
+color: #ffffff;
 
 /* Особенности */
 
@@ -386,8 +350,6 @@ height: 101px;
 left: 215px;
 top: 774px;
 
-
-
 /* Feature 1 */
 
 position: absolute;
@@ -395,8 +357,6 @@ width: 270px;
 height: 101px;
 left: 215px;
 top: 774px;
-
-
 
 /* Внимание к деталям */
 
@@ -406,7 +366,7 @@ height: 16px;
 left: 215px;
 top: 774px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -415,8 +375,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color: #212121;
-
-
 
 /* Идейные соображения, а также начало повседневной работы по формированию позиции. */
 
@@ -426,7 +384,7 @@ height: 75px;
 left: 215px;
 top: 800px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -435,8 +393,6 @@ line-height: 24px;
 letter-spacing: 0.03em;
 
 color: #757575;
-
-
 
 /* Feature 2 */
 
@@ -446,8 +402,6 @@ height: 101px;
 left: 515px;
 top: 774px;
 
-
-
 /* Пунктуальность */
 
 position: absolute;
@@ -456,7 +410,7 @@ height: 16px;
 left: 515px;
 top: 774px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -465,8 +419,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color: #212121;
-
-
 
 /* Задача организации, в особенности же рамки и место обучения кадров влечет за собой. */
 
@@ -476,7 +428,7 @@ height: 75px;
 left: 515px;
 top: 800px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -485,8 +437,6 @@ line-height: 24px;
 letter-spacing: 0.03em;
 
 color: #757575;
-
-
 
 /* Feature 3 */
 
@@ -496,8 +446,6 @@ height: 101px;
 left: 815px;
 top: 774px;
 
-
-
 /* Планирование */
 
 position: absolute;
@@ -506,7 +454,7 @@ height: 16px;
 left: 815px;
 top: 774px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -515,8 +463,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color: #212121;
-
-
 
 /* Равным образом консультация с широким активом в значительной степени обуславливает. */
 
@@ -526,7 +472,7 @@ height: 75px;
 left: 815px;
 top: 800px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -535,8 +481,6 @@ line-height: 24px;
 letter-spacing: 0.03em;
 
 color: #757575;
-
-
 
 /* Feature 4 */
 
@@ -546,8 +490,6 @@ height: 101px;
 left: 1115px;
 top: 774px;
 
-
-
 /* Современные технологии */
 
 position: absolute;
@@ -556,7 +498,7 @@ height: 16px;
 left: 1115px;
 top: 774px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -566,8 +508,6 @@ text-transform: uppercase;
 
 color: #212121;
 
-
-
 /* Значимость этих проблем настолько очевидна, что реализация плановых заданий. */
 
 position: absolute;
@@ -576,7 +516,7 @@ height: 75px;
 left: 1115px;
 top: 800px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -586,8 +526,6 @@ letter-spacing: 0.03em;
 
 color: #757575;
 
-
-
 /* Чем мы занимаемся */
 
 position: absolute;
@@ -596,8 +534,6 @@ height: 386px;
 left: 215px;
 top: 969px;
 
-
-
 /* box 1 */
 
 position: absolute;
@@ -605,8 +541,6 @@ width: 370px;
 height: 294px;
 left: 215px;
 top: 1061px;
-
-
 
 /* img */
 
@@ -619,7 +553,6 @@ top: 1061px;
 background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
 mix-blend-mode: normal;
 
-
 /* box 2 */
 
 position: absolute;
@@ -627,8 +560,6 @@ width: 370px;
 height: 294px;
 left: 615px;
 top: 1061px;
-
-
 
 /* img */
 
@@ -640,7 +571,6 @@ top: 1061px;
 
 background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
 
-
 /* box 3 */
 
 position: absolute;
@@ -648,8 +578,6 @@ width: 370px;
 height: 294px;
 left: 1015px;
 top: 1061px;
-
-
 
 /* img */
 
@@ -661,7 +589,6 @@ top: 1061px;
 
 background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 
-
 /* Чем мы занимаемся */
 
 position: absolute;
@@ -670,7 +597,7 @@ height: 42px;
 left: 612px;
 top: 969px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -680,8 +607,6 @@ letter-spacing: 0.03em;
 
 color: #212121;
 
-
-
 /* Наша команда */
 
 position: absolute;
@@ -689,8 +614,6 @@ width: 1600px;
 height: 648px;
 left: 0px;
 top: 1449px;
-
-
 
 /* Section bg */
 
@@ -700,8 +623,7 @@ height: 648px;
 left: 0px;
 top: 1449px;
 
-background: #F5F4FA;
-
+background: #f5f4fa;
 
 /* team  */
 
@@ -711,8 +633,6 @@ height: 368px;
 left: 215px;
 top: 1635px;
 
-
-
 /* team card 1 */
 
 position: absolute;
@@ -720,8 +640,6 @@ width: 270px;
 height: 368px;
 left: 215px;
 top: 1635px;
-
-
 
 /* card bg */
 
@@ -731,13 +649,11 @@ height: 368px;
 left: 215px;
 top: 1635px;
 
-background: #FFFFFF;
+background: #ffffff;
 /* material shadow v1 */
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-0px 1px 1px rgba(0, 0, 0, 0.14),
-0px 2px 1px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-
 
 /* img */
 
@@ -750,7 +666,6 @@ top: 1635px;
 background: url(4853.jpg);
 border-radius: 0px;
 
-
 /* Игорь Демьяненко */
 
 position: absolute;
@@ -759,7 +674,7 @@ height: 19px;
 left: 275px;
 top: 1925px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -770,8 +685,6 @@ letter-spacing: 0.03em;
 
 color: #212121;
 
-
-
 /* Product Designer */
 
 position: absolute;
@@ -780,7 +693,7 @@ height: 19px;
 left: 285px;
 top: 1954px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -791,8 +704,6 @@ letter-spacing: 0.03em;
 
 color: #757575;
 
-
-
 /* team card 2 */
 
 position: absolute;
@@ -800,8 +711,6 @@ width: 270px;
 height: 368px;
 left: 515px;
 top: 1635px;
-
-
 
 /* card bg */
 
@@ -811,13 +720,11 @@ height: 368px;
 left: 515px;
 top: 1635px;
 
-background: #FFFFFF;
+background: #ffffff;
 /* material shadow v1 */
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-0px 1px 1px rgba(0, 0, 0, 0.14),
-0px 2px 1px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-
 
 /* img */
 
@@ -830,7 +737,6 @@ top: 1635px;
 background: url(5844.jpg);
 border-radius: 0px;
 
-
 /* Ольга Репина */
 
 position: absolute;
@@ -839,7 +745,7 @@ height: 19px;
 left: 596px;
 top: 1925px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -850,8 +756,6 @@ letter-spacing: 0.03em;
 
 color: #212121;
 
-
-
 /* Frontend Developer */
 
 position: absolute;
@@ -860,7 +764,7 @@ height: 19px;
 left: 577px;
 top: 1954px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -871,8 +775,6 @@ letter-spacing: 0.03em;
 
 color: #757575;
 
-
-
 /* team card 3 */
 
 position: absolute;
@@ -880,8 +782,6 @@ width: 270px;
 height: 368px;
 left: 815px;
 top: 1635px;
-
-
 
 /* card bg */
 
@@ -891,13 +791,11 @@ height: 368px;
 left: 815px;
 top: 1635px;
 
-background: #FFFFFF;
+background: #ffffff;
 /* material shadow v1 */
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-0px 1px 1px rgba(0, 0, 0, 0.14),
-0px 2px 1px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-
 
 /* img */
 
@@ -910,7 +808,6 @@ top: 1635px;
 background: url(16166.jpg);
 border-radius: 0px;
 
-
 /* Николай Тарасов */
 
 position: absolute;
@@ -919,7 +816,7 @@ height: 19px;
 left: 882px;
 top: 1925px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -930,8 +827,6 @@ letter-spacing: 0.03em;
 
 color: #212121;
 
-
-
 /* Marketing */
 
 position: absolute;
@@ -940,7 +835,7 @@ height: 19px;
 left: 912px;
 top: 1954px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -951,8 +846,6 @@ letter-spacing: 0.03em;
 
 color: #757575;
 
-
-
 /* team card 4 */
 
 position: absolute;
@@ -960,8 +853,6 @@ width: 270px;
 height: 368px;
 left: 1115px;
 top: 1635px;
-
-
 
 /* card bg */
 
@@ -971,13 +862,11 @@ height: 368px;
 left: 1115px;
 top: 1635px;
 
-background: #FFFFFF;
+background: #ffffff;
 /* material shadow v1 */
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-0px 1px 1px rgba(0, 0, 0, 0.14),
-0px 2px 1px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-
 
 /* img */
 
@@ -990,7 +879,6 @@ top: 1635px;
 background: url(2968.jpg);
 border-radius: 0px;
 
-
 /* Михаил Ермаков */
 
 position: absolute;
@@ -999,7 +887,7 @@ height: 19px;
 left: 1183px;
 top: 1925px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -1009,8 +897,6 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
-
-
 
 /* UI Designer */
 
@@ -1020,7 +906,7 @@ height: 19px;
 left: 1207px;
 top: 1954px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -1031,8 +917,6 @@ letter-spacing: 0.03em;
 
 color: #757575;
 
-
-
 /* Наша команда */
 
 position: absolute;
@@ -1041,7 +925,7 @@ height: 42px;
 left: 668px;
 top: 1543px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -1051,8 +935,6 @@ letter-spacing: 0.03em;
 
 color: #212121;
 
-
-
 /* Подвал */
 
 position: absolute;
@@ -1060,8 +942,6 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 2097px;
-
-
 
 /* Footer bg */
 
@@ -1071,8 +951,7 @@ height: 252px;
 left: 0px;
 top: 2097px;
 
-background: #2F303A;
-
+background: #2f303a;
 
 /* WebStudio */
 
@@ -1082,7 +961,7 @@ height: 31px;
 left: 215px;
 top: 2157px;
 
-font-family: 'Raleway';
+font-family: "Raleway";
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -1090,9 +969,7 @@ line-height: 31px;
 /* identical to box height */
 letter-spacing: 0.03em;
 
-color: #2196F3;
-
-
+color: #2196f3;
 
 /* Address */
 
@@ -1102,8 +979,6 @@ height: 81px;
 left: 215px;
 top: 2208px;
 
-
-
 /* г. Киев, пр-т Леси Украинки, 26 */
 
 position: absolute;
@@ -1112,7 +987,7 @@ height: 21px;
 left: 215px;
 top: 2208px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -1120,9 +995,7 @@ line-height: 24px;
 /* or 171% */
 letter-spacing: 0.03em;
 
-color: #FFFFFF;
-
-
+color: #ffffff;
 
 /* info@example.com */
 
@@ -1132,7 +1005,7 @@ height: 21px;
 left: 215px;
 top: 2238px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -1141,8 +1014,6 @@ line-height: 24px;
 letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
-
-
 
 /* +38 099 111 11 11 */
 
@@ -1152,7 +1023,7 @@ height: 21px;
 left: 215px;
 top: 2268px;
 
-font-family: 'Roboto';
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -1161,8 +1032,6 @@ line-height: 24px;
 letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
-
-
 
 /* (указатели) */
 
@@ -1172,8 +1041,6 @@ height: 2788px;
 left: 480px;
 top: 49px;
 
-
-
 /* finger 1 */
 
 position: absolute;
@@ -1182,8 +1049,6 @@ height: 16px;
 left: 480px;
 top: 49px;
 
-
-
 /* Group */
 
 position: absolute;
@@ -1192,8 +1057,6 @@ right: 8.33%;
 top: 0%;
 bottom: 0%;
 
-
-
 /* Group */
 
 position: absolute;
@@ -1201,8 +1064,6 @@ left: 8.33%;
 right: 8.33%;
 top: 0%;
 bottom: 0%;
-
-
 
 /* Vector */
 
@@ -1213,7 +1074,6 @@ top: 0%;
 bottom: 0%;
 
 background: #000000;
-
 
 /* finger 2 */
 
@@ -1223,8 +1083,6 @@ height: 16px;
 left: 1107px;
 top: 51px;
 
-
-
 /* Group */
 
 position: absolute;
@@ -1233,8 +1091,6 @@ right: 8.33%;
 top: 0%;
 bottom: 0%;
 
-
-
 /* Group */
 
 position: absolute;
@@ -1242,8 +1098,6 @@ left: 8.33%;
 right: 8.33%;
 top: 0%;
 bottom: 0%;
-
-
 
 /* Vector */
 
@@ -1254,7 +1108,6 @@ top: 0%;
 bottom: 0%;
 
 background: #000000;
-
 
 /* finger 3 */
 
@@ -1264,8 +1117,6 @@ height: 16px;
 left: 585px;
 top: 2821px;
 
-
-
 /* Group */
 
 position: absolute;
@@ -1274,8 +1125,6 @@ right: 8.33%;
 top: 0%;
 bottom: 0%;
 
-
-
 /* Group */
 
 position: absolute;
@@ -1283,8 +1132,6 @@ left: 8.33%;
 right: 8.33%;
 top: 0%;
 bottom: 0%;
-
-
 
 /* Vector */
 
@@ -1294,1454 +1141,6 @@ right: 8.33%;
 top: 0%;
 bottom: 0%;
 
-background: #FFFFFF;
+background: #ffffff;
 
-/* Портфолио */
-
-position: relative;
-width: 1600px;
-height: 1880px;
-
-background: #FFFFFF;
-
-
-/* Верхняя линия */
-
-position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
-
-
-
-/* top line bg */
-
-position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
-
-background: #FFFFFF;
-
-
-/* Line  */
-
-position: absolute;
-width: 1600px;
-height: 0px;
-left: 0px;
-top: 80px;
-
-border: 1px solid #ECECEC;
-
-
-/* WebStudio */
-
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-letter-spacing: 0.03em;
-
-color: #2196F3;
-
-
-
-/* Menu Nav */
-
-position: absolute;
-width: 294px;
-height: 16px;
-left: 453px;
-top: 32px;
-
-
-
-/* Студия */
-
-position: absolute;
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-
-
-
-/* Портфолио */
-
-position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-
-
-
-/* Активная ссылка */
-
-position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
-
-
-
-/* Портфолио */
-
-position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #2196F3;
-
-
-
-/* Контакты */
-
-position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-
-
-
-/* E-mail */
-
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
-
-
-/* info@devstudio.com */
-
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #757575;
-
-
-
-/* Tel */
-
-position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-
-
-
-/* +38 096 111 11 11 */
-
-position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #757575;
-
-
-
-/* Портфолио */
-
-position: absolute;
-width: 1170px;
-height: 1360px;
-left: 215px;
-top: 174px;
-
-
-
-/* filters */
-
-position: absolute;
-width: 611px;
-height: 54px;
-left: 495px;
-top: 174px;
-
-
-
-/* filter 1 (active) */
-
-position: absolute;
-width: 73px;
-height: 38px;
-left: 495px;
-top: 174px;
-
-
-
-/* Rectangle 10 */
-
-position: absolute;
-width: 73px;
-height: 38px;
-left: 495px;
-top: 174px;
-
-background: #2196F3;
-/* shadow-middle */
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-0px 1px 2px rgba(0, 0, 0, 0.08),
-0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
-
-
-/* Все */
-
-position: absolute;
-width: 29px;
-height: 26px;
-left: 517px;
-top: 180px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #FFFFFF;
-
-
-
-/* finger 1 */
-
-position: absolute;
-width: 16px;
-height: 16px;
-left: 546px;
-top: 212px;
-
-
-
-/* Group */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Group */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 0%;
-bottom: 0%;
-
-background: #000000;
-
-
-/* filter 2 */
-
-position: absolute;
-width: 128px;
-height: 38px;
-left: 576px;
-top: 174px;
-
-
-
-/* Rectangle 10 */
-
-position: absolute;
-width: 128px;
-height: 38px;
-left: 576px;
-top: 174px;
-
-background: #F5F4FA;
-border-radius: 4px;
-
-
-/* Веб-сайты */
-
-position: absolute;
-width: 84px;
-height: 26px;
-left: 598px;
-top: 180px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
-
-
-/* filter 3 */
-
-position: absolute;
-width: 145px;
-height: 38px;
-left: 712px;
-top: 174px;
-
-
-
-/* Rectangle 10 */
-
-position: absolute;
-width: 145px;
-height: 38px;
-left: 712px;
-top: 174px;
-
-background: #F5F4FA;
-border-radius: 4px;
-
-
-/* Приложения */
-
-position: absolute;
-width: 101px;
-height: 26px;
-left: 734px;
-top: 180px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
-
-
-/* filter 4 */
-
-position: absolute;
-width: 103px;
-height: 38px;
-left: 865px;
-top: 174px;
-
-
-
-/* Rectangle 10 */
-
-position: absolute;
-width: 103px;
-height: 38px;
-left: 865px;
-top: 174px;
-
-background: #F5F4FA;
-border-radius: 4px;
-
-
-/* Дизайн */
-
-position: absolute;
-width: 59px;
-height: 26px;
-left: 887px;
-top: 180px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
-
-
-/* filter 5 */
-
-position: absolute;
-width: 130px;
-height: 38px;
-left: 976px;
-top: 174px;
-
-
-
-/* Rectangle 10 */
-
-position: absolute;
-width: 130px;
-height: 38px;
-left: 976px;
-top: 174px;
-
-background: #F5F4FA;
-border-radius: 4px;
-
-
-/* Маркетинг */
-
-position: absolute;
-width: 86px;
-height: 26px;
-left: 998px;
-top: 180px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
-
-
-/* project 1 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 262px;
-
-
-
-/* Group 1 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 262px;
-
-
-
-/* container bg */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 262px;
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
-
-/* img */
-
-position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 262px;
-
-background: url(portfolio1.jpg);
-
-
-/* title */
-
-position: absolute;
-width: 322px;
-height: 70px;
-left: 239px;
-top: 576px;
-
-
-
-/* Веб-сайт */
-
-position: absolute;
-width: 322px;
-height: 30px;
-left: 239px;
-top: 616px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-
-color: #757575;
-
-
-
-/* Технокряк */
-
-position: absolute;
-width: 322px;
-height: 36px;
-left: 239px;
-top: 576px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-
-color: #212121;
-
-
-
-/* project 2 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 262px;
-
-
-
-/* Group 1 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 262px;
-
-
-
-/* container bg */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 262px;
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
-
-/* img */
-
-position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 262px;
-
-background: url(portfolio2.jpg);
-
-
-/* title */
-
-position: absolute;
-width: 322px;
-height: 70px;
-left: 639px;
-top: 576px;
-
-
-
-/* Дизайн */
-
-position: absolute;
-width: 322px;
-height: 30px;
-left: 639px;
-top: 616px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-
-color: #757575;
-
-
-
-/* Постер New Orlean vs Golden Star */
-
-position: absolute;
-width: 322px;
-height: 36px;
-left: 639px;
-top: 576px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-
-color: #212121;
-
-
-
-/* project 3 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 262px;
-
-
-
-/* Group 1 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 262px;
-
-
-
-/* container bg */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 262px;
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
-
-/* img */
-
-position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 262px;
-
-background: url(portfolio-1.jpg);
-
-
-/* title */
-
-position: absolute;
-width: 322px;
-height: 70px;
-left: 1039px;
-top: 576px;
-
-
-
-/* Приложение */
-
-position: absolute;
-width: 322px;
-height: 30px;
-left: 1039px;
-top: 616px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-
-color: #757575;
-
-
-
-/* Ресторан Seafood */
-
-position: absolute;
-width: 322px;
-height: 36px;
-left: 1039px;
-top: 576px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-
-color: #212121;
-
-
-
-/* project 4 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 696px;
-
-
-
-/* Group 1 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 696px;
-
-
-
-/* container bg */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 696px;
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
-
-/* img */
-
-position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 696px;
-
-background: url(portfolio-2.jpg);
-
-
-/* title */
-
-position: absolute;
-width: 322px;
-height: 70px;
-left: 239px;
-top: 1010px;
-
-
-
-/* Маркетинг */
-
-position: absolute;
-width: 322px;
-height: 30px;
-left: 239px;
-top: 1050px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-
-color: #757575;
-
-
-
-/* Проект Prime */
-
-position: absolute;
-width: 322px;
-height: 36px;
-left: 239px;
-top: 1010px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-
-color: #212121;
-
-
-
-/* project 5 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 696px;
-
-
-
-/* Group 1 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 696px;
-
-
-
-/* container bg */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 696px;
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
-
-/* img */
-
-position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 696px;
-
-background: url(portfolio5.jpg);
-
-
-/* title */
-
-position: absolute;
-width: 322px;
-height: 70px;
-left: 639px;
-top: 1010px;
-
-
-
-/* Приложение */
-
-position: absolute;
-width: 322px;
-height: 30px;
-left: 639px;
-top: 1050px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-
-color: #757575;
-
-
-
-/* Проект Boxes */
-
-position: absolute;
-width: 322px;
-height: 36px;
-left: 639px;
-top: 1010px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-
-color: #212121;
-
-
-
-/* project 6 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 696px;
-
-
-
-/* Group 1 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 696px;
-
-
-
-/* container bg */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 696px;
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
-
-/* img */
-
-position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 696px;
-
-background: url(111.jpg);
-
-
-/* title */
-
-position: absolute;
-width: 322px;
-height: 70px;
-left: 1039px;
-top: 1010px;
-
-
-
-/* Веб-сайт */
-
-position: absolute;
-width: 322px;
-height: 30px;
-left: 1039px;
-top: 1050px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-
-color: #757575;
-
-
-
-/* Inspiration has no Borders */
-
-position: absolute;
-width: 322px;
-height: 36px;
-left: 1039px;
-top: 1010px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-
-color: #212121;
-
-
-
-/* project 7 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 1130px;
-
-
-
-/* Group 1 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 1130px;
-
-
-
-/* container bg */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 1130px;
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
-
-/* img */
-
-position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1130px;
-
-background: url(portfolio7.jpg);
-
-
-/* title */
-
-position: absolute;
-width: 322px;
-height: 70px;
-left: 239px;
-top: 1444px;
-
-
-
-/* Дизайн */
-
-position: absolute;
-width: 322px;
-height: 30px;
-left: 239px;
-top: 1484px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-
-color: #757575;
-
-
-
-/* Издание Limited Edition */
-
-position: absolute;
-width: 322px;
-height: 36px;
-left: 239px;
-top: 1444px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-
-color: #212121;
-
-
-
-/* project 8 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 1130px;
-
-
-
-/* Group 1 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 1130px;
-
-
-
-/* container bg */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 1130px;
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
-
-/* img */
-
-position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1130px;
-
-background: url(portfolio8.jpg);
-
-
-/* title */
-
-position: absolute;
-width: 322px;
-height: 70px;
-left: 639px;
-top: 1444px;
-
-
-
-/* Маркетинг */
-
-position: absolute;
-width: 322px;
-height: 30px;
-left: 639px;
-top: 1484px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-
-color: #757575;
-
-
-
-/* Проект LAB */
-
-position: absolute;
-width: 322px;
-height: 36px;
-left: 639px;
-top: 1444px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-
-color: #212121;
-
-
-
-/* project 9 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 1130px;
-
-
-
-/* Group 1 */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 1130px;
-
-
-
-/* container bg */
-
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 1130px;
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
-
-/* img */
-
-position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1130px;
-
-background: url(2910404.jpg);
-
-
-/* title */
-
-position: absolute;
-width: 322px;
-height: 70px;
-left: 1039px;
-top: 1444px;
-
-
-
-/* Приложение */
-
-position: absolute;
-width: 322px;
-height: 30px;
-left: 1039px;
-top: 1484px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-
-color: #757575;
-
-
-
-/* Growing Business */
-
-position: absolute;
-width: 322px;
-height: 36px;
-left: 1039px;
-top: 1444px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-
-color: #212121;
-
-
-
-/* Подвал */
-
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 1628px;
-
-
-
-/* Footer bg */
-
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 1628px;
-
-background: #2F303A;
-
-
-/* WebStudio */
-
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 1688px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-letter-spacing: 0.03em;
-
-color: #2196F3;
-
-
-
-/* Address */
-
-position: absolute;
-width: 231px;
-height: 81px;
-left: 215px;
-top: 1739px;
-
-
-
-/* г. Киев, пр-т Леси Украинки, 26 */
-
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 1739px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-
-color: #FFFFFF;
-
-
-
-/* info@example.com */
-
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 1769px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
-
-
-
-/* +38 099 111 11 11 */
-
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 1799px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
+/
