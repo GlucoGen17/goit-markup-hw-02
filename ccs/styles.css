@@ -4,7 +4,6 @@
   --secondary-text-color: #757575;
   --white-text-color: #ffffff;
   --accent-color: #2196f3;
-  --black-logo-color: #000000;
 
 
   --white-background-color: #ffffff;
@@ -14,72 +13,302 @@
 
 body {
   font-family: "Roboto",
-  sans-serif;
-  background-color:var(--white-background-color);
+    sans-serif;
+  background-color: var(--white-background-color);
   color: var(--primary-text-color);
-  
 }
 
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
 
-/* Верхняя линия */
+/*-------------------Header-----------------*/
 .header {
   background-color: var(--white-background-color);
-
 }
-.header-logo
-.header-logo-studio {
+
+.header-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   color: var(--accent-color);
 }
-.header-navigation
-.header-list
-.header-item
-.header-link
-.header-contact
-.header-contact-link
-/* Шапка */
-.cap
-.cap-title {
+
+.header-logo-studio {
+  color: #000000;
+}
+
+/* -------------------Навигация--------------------- */
+
+
+.header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header-link-studio {
+  color: var(--accent-color);
+}
+
+.header-link-studio:hover,
+.header-link-studio:focus {
+  color: var(--primary-text-color);
+}
+
+.header-link,
+.header-link:hover,
+.header-link:focus {
+  color: var(--primary-text-color);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header-contact-mail {
+  color: #2196f3;
+}
+
+.header-contact-mail:hover,
+.header-contact-mail:focus {
+  color: #757575;
+}
+
+.header-contact-tel,
+.header-contact-tel:hover,
+.header-contact-tel:focus {
+  color: var(--secondary-text-color);
+}
+
+
+/* -----------------------Основной контент------------------ */
+
+/* ----------------------Hero--------------------------- */
+
+.hero {
   background-color: var(--cap-background-color);
 }
-.cap-btn
-/* Особенности */
-.features-section
-.features-title
-.features-text
-/* Чем мы занимаемся */
-.work-section
-.work-title
-.work-list
-.work-item
-/* Наша команда */
-.team-section
-.team-title
-.team-list
-.team-item
-.team-worker
-.team-profesion
-/* Подвал */
-.foorer
-.foorer-logo
-.foorer-logo-studio
-.foorer-aderess
-.foorer-list
-.foorer-item
-.foorer-link
 
-/* portfolio */
-.portfolio
-  /* фильтр */
-  .filters-list
-  .filters-btn
-  /* проекты */
-  .projects-list
-  .projects-item
-  .projects-title
-  .projects-text
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.hero-btn,
+.hero-btn:hover,
+.hero-btn:focus {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--white-text-color);
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* ----------------------Особености--------------------------- */
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+/* ----------------------Чем мы занимаемся--------------------------- */
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+/* ----------------------Наша команда--------------------------- */
+.team-section {
+  background: var(--team-background-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.team-worker {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.team-profesion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/* ----------------------Footer--------------------------- */
+
+.foorer {
+  background-color: var(--cap-background-color);
+}
+
+.foorer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.foorer-logo-studio {
+  color: var(--white-text-color);
+}
+
+.foorer-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.foorer-contact-aderess {
+  color: var(--white-text-color);
+}
+
+.foorer-contact-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.foorer-contact-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ----------------------portfolio--------------------------- */
+
+/* -----------------------Header------------------------- */
+.header-link-portfolio {
+  color: var(--accent-color);
+}
+
+.header-portfolio-mail {
+  color: var(--secondary-text-color);
+}
+
+/* -----------------------Filtr------------------------- */
+
+.filters-btn-all,
+.filters-btn-all:hover,
+.filters-btn-all:focus {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
+  background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.filters-btn-web {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--team-background-color);
+  border-radius: 4px;
+  color: var(--primary-text-color);
+}
+
+.filters-btn-app {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--team-background-color);
+  border-radius: 4px;
+  color: var(--primary-text-color);
+}
+
+.filters-btn-dising {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--team-background-color);
+  border-radius: 4px;
+  color: var(--primary-text-color);
+}
+
+.filters-btn-market {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--team-background-color);
+  border-radius: 4px;
+  color: var(--primary-text-color);
+}
+
+/* -----------------------Projects------------------------- */
+
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.projects-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
