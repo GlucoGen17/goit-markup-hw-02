@@ -32,6 +32,7 @@ body {
 }
 
 .header-logo {
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -108,14 +109,11 @@ body {
 .hero-btn,
 .hero-btn:hover,
 .hero-btn:focus {
-  font-family: 'Roboto';
-  font-style: normal;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  cursor: pointer;
   color: var(--white-text-color);
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -127,13 +125,12 @@ body {
 .features-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
 
 .features-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
@@ -171,8 +168,6 @@ body {
 }
 
 .team-profesion {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
@@ -196,10 +191,9 @@ body {
 }
 
 .foorer-list {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  font-style: normal;
+
 }
 
 .foorer-contact-aderess {
@@ -227,72 +221,27 @@ body {
 
 /* -----------------------Filtr------------------------- */
 
-.filters-btn-all,
-.filters-btn-all:hover,
-.filters-btn-all:focus {
-  font-family: 'Roboto';
-  font-style: normal;
+
+}
+
+.filters-btn,
+.filters-btn:hover,
+.filters-btn:focus {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.62;
+  cursor: pointer;
+  background: var(--team-background-color);
+  border-radius: 4px;
+  color: var(--primary-text-color);
+}
+
+.filters-btn-all {
   color: var(--white-text-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
-
-.filters-btn-web {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background: var(--team-background-color);
-  border-radius: 4px;
-  color: var(--primary-text-color);
-}
-
-.filters-btn-app {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background: var(--team-background-color);
-  border-radius: 4px;
-  color: var(--primary-text-color);
-}
-
-.filters-btn-dising {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background: var(--team-background-color);
-  border-radius: 4px;
-  color: var(--primary-text-color);
-}
-
-.filters-btn-market {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background: var(--team-background-color);
-  border-radius: 4px;
-  color: var(--primary-text-color);
 }
 
 /* -----------------------Projects------------------------- */
@@ -306,8 +255,6 @@ body {
 }
 
 .projects-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
